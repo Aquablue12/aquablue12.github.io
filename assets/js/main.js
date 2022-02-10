@@ -9,7 +9,7 @@
 	var	$window = $(window),
 		$head = $('head'),
 		$body = $('body');
-
+	
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -50,6 +50,11 @@
 
 	// Fixes.
 
+	
+		$("#cart").on("click", function() {
+			$(".shopping-cart").fadeToggle( "fast");
+		});
+	
 		// Object fit images.
 			if (!browser.canUse('object-fit')
 			||	browser.name == 'safari')
@@ -135,7 +140,7 @@
 							else
 								window.location.href = href;
 
-						}, 500);
+						}, 500);  
 
 				});
 
