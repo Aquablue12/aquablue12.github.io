@@ -9,6 +9,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Color variables. Defaults: 40e4bf, N/a, 7f888f, 3d4449, FFFFFF (i don't expect this to change) */
 :root {
 	--theme: #40e4bf; /* main theme color */
 	--accent: ; /* accent theme color*/
