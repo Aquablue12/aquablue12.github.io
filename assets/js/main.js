@@ -52,7 +52,7 @@
 
 	
 		$("#cart").on("click", function() {
-			$(".shopping-cart").fadeToggle( "fast");
+			$(".shopping-cart").fadeToggle(150,"swing");
 		});
 	
 		// Object fit images.
